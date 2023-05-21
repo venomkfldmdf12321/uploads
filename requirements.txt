@@ -2,3 +2,4 @@ gunicorn
 django
 dj_database_url
 pandas
+openpyxl
