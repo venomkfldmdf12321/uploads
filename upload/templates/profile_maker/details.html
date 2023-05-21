@@ -1,0 +1,15 @@
+{% extends 'profile_maker/create.html' %}
+{% block replace %}
+<CENTER>
+<div class="jumbotron">
+  <h1 class="display-4">Welcome<br>{{ user_pr.fname }}</h1>
+  <p class="lead">uploaded file is</p>
+  <hr class="my-4">
+  <a href="{{ user_pr.display_picture.url }}" class="image_responsive">{{ user_pr.display_picture.url }}</a>
+  <hr class="my-4">
+  <p class="lead">final file is</p>
+  <a href="media/final.xlsx" class="image_responsive">Final</a>
+  <p>
+</div>
+</CENTER>
+{% endblock %}
