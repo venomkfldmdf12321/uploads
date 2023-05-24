@@ -9,3 +9,6 @@ class Profile_Form(forms.ModelForm):
         fields = [
         'display_picture'
         ]
+        labels = {
+        "display_picture":  ""
+            }
